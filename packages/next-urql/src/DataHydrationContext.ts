@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ServerInsertedHTMLContext } from 'next/navigation';
+import { ServerInsertedHTMLContext } from 'next/navigation.js';
 import type { UrqlResult } from './useUrqlValue';
 
 interface DataHydrationValue {
